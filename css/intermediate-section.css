@@ -1,0 +1,404 @@
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.bxg-intermediate-section{
+    width: 1920px;
+}
+/* 交互实验室 */
+.bxg-intermediate-section .bxg-lab{
+    height: 394px;
+    margin-top: 50px;
+    background: url(../images/lightning_bg.gif);
+}
+.bxg-intermediate-section .bxg-lab a{
+    float: right;
+    font-size: 12px;
+    color: #9e9e9e;
+}
+.bxg-intermediate-section .bxg-lab a:hover{
+    color: #fe933a;
+    cursor: pointer;
+}
+.bxg-intermediate-section .bxg-lab li{
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 120px;
+    background:url(../images/lightning.png) no-repeat center center;
+}
+.bxg-intermediate-section .bxg-lab li h3{
+    margin-top: 38px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    display: none;
+}
+.bxg-intermediate-section .bxg-lab li:nth-child(1){
+    left: 10px;
+    top: 40px;
+}
+.bxg-intermediate-section .bxg-lab li:nth-child(2){
+    left:-93px;
+    top: 120px;
+}
+.bxg-intermediate-section .bxg-lab li:nth-child(3){
+    left: -145px;
+    top: 145px;
+}
+.bxg-intermediate-section .bxg-lab li:nth-child(4){
+    left: 8px;
+    top: 135px;
+}
+.bxg-intermediate-section .bxg-lab li:nth-child(5){
+    left: -71px;
+    top: 57px;
+}
+.bxg-intermediate-section .bxg-lab li:nth-child(6){
+    left: 1008px;
+    top: 3px;
+}
+.bxg-intermediate-section .bxg-lab li img{
+    position: absolute;
+    top: 29px;
+    left: 34px;
+    width: 57px;
+    height: 45px;
+}
+.bxg-intermediate-section .bxg-lab li:first-child img{
+    top: 33px;
+    left: 29px;
+    width: 58px;
+    height: 47px;
+}
+.bxg-intermediate-section .bxg-lab li span:first-child{
+    position: absolute;
+    top: 47px;
+    left: 47px;
+    width: 31px;
+    height: 15px;
+    font-size: 14px;
+    color: #4ed5c8;
+}
+.bxg-intermediate-section .bxg-lab li:first-child span:first-child{
+    position: absolute;
+    top: 53px;
+    left: 43px;
+    width: 32px;
+    height: 15px;
+    font-size: 14px;
+    color: #f72a57;
+}
+.bxg-intermediate-section .bxg-lab li span:last-child{
+    position: absolute;
+    top: 33px;
+    left:94px;
+    width: 106px;
+    height: 40px;
+    font-size: 14px;
+    color: #9e9e9e;
+}
+.bxg-intermediate-section .bxg-lab li:hover{
+    background:url(../images/lightning1.png) no-repeat center center;
+}
+.bxg-intermediate-section .bxg-lab li:hover h1{
+    display: none;
+}
+.bxg-intermediate-section .bxg-lab li:hover h3{
+    display: block;
+}
+
+
+/* 职业体系 */
+.bxg-intermediate-section .bxg-career-system{
+    position: relative;
+    height: 341px;
+    margin-top: 50px;
+}
+.bxg-intermediate-section .bxg-career-system h3 span{
+    font-weight: normal;
+    font-size: 16px;
+    color: #9e9e9e;;
+}
+.bxg-intermediate-section .bxg-career-system h3 a{
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+.bxg-intermediate-section .bxg-career-system h3 a:hover{
+    cursor: pointer;
+    color: orange;
+}
+.bxg-intermediate-section .bxg-career-system li{
+    float: left;
+    margin-top: 22px;
+    margin-right:45px ;
+    width:267px;
+	height:292px;
+	border-radius: 8px;
+	border: solid 2px #efefef;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bxg-intermediate-section .bxg-career-system li:nth-child(2){
+    margin-right: 42px;
+}
+.bxg-intermediate-section .bxg-career-system li:last-child{
+    margin-right: 0px;
+}
+.bxg-intermediate-section .bxg-career-system li img{
+    width: 208px;
+    height: 144px;
+    margin-top: 19px;
+}
+.bxg-intermediate-section .bxg-career-system li h6{
+    margin-top: 18px;
+    font-weight: normal;
+}
+.bxg-intermediate-section .bxg-career-system li span{
+    display: inline-block;
+    width: 146px;
+    height: 42px;
+    margin-top: 10px;
+    border: 2px solid #fe933a;
+    text-align: center;
+    line-height: 42px;
+    color: #fe933a;
+}
+.bxg-intermediate-section .bxg-career-system li span:hover{
+    background-color: #fe933a;
+    color:#fff;
+}
+
+
+/* 热门课程 */
+.bxg-intermediate-section .bxg-well-sold-courses{
+    position: relative;
+    height: 296px;
+    margin-top: 50px;
+}
+.bxg-intermediate-section .bxg-well-sold-courses h3 span{
+    font-weight: normal;
+    font-size: 16px;
+    color: #9e9e9e;;
+}
+.bxg-intermediate-section .bxg-well-sold-courses h3 a{
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+.bxg-intermediate-section .bxg-well-sold-courses h3 a:hover{
+    cursor: pointer;
+    color: orange;
+}
+.bxg-intermediate-section .bxg-well-sold-courses li{
+    position: relative;
+    float: left;
+    margin-top: 21px;
+    margin-right:45px ;
+    width:267px;
+	height:249px;
+    box-sizing: border-box;
+}
+.bxg-intermediate-section .bxg-well-sold-courses li:nth-child(2){
+    margin-right: 42px;
+}
+.bxg-intermediate-section .bxg-well-sold-courses li:last-child{
+    margin-right: 0px;
+}
+.bxg-intermediate-section .bxg-well-sold-courses li img{
+    width: 267px;
+    height: 194px;
+}
+.bxg-intermediate-section .bxg-well-sold-courses li h6{
+    margin-top: 12px;
+    font-weight: normal;
+}
+.bxg-intermediate-section .bxg-well-sold-courses li span{
+    font-size: 14px;
+    color: #fe933a;
+}
+.bxg-intermediate-section .bxg-well-sold-courses li span:last-child{
+    float: right;
+    color: #9e9e9e;
+}
+.bxg-intermediate-section .bxg-well-sold-courses li span:last-child::before{
+    content: '';
+    position: absolute;
+    top: 227px;
+    left: 200px;
+    width: 13px;
+    height: 14px;
+    background:url(../images/user.png)no-repeat;
+}
+
+/* 热门就业班 */
+.bxg-intermediate-section .bxg-employment-class{
+    height: 394px;
+    margin-top: 56px;
+    box-sizing: border-box;
+}
+.bxg-intermediate-section .bxg-employment-class .class1{
+    position: relative;
+    float: left;
+    width: 580px;
+    height: 342px;
+    margin-top: 28px;
+    margin-right: 40px;
+}
+.bxg-intermediate-section .bxg-employment-class .employment-class,.robot{
+    width: 580px;
+    height: 241px;
+    background: url(../images/产品经理.png)no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.bxg-intermediate-section .bxg-employment-class .mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 580px;
+    height: 241px;
+    background-color: rgba(0, 0, 0, .6);
+    display: none;
+    text-align: center;
+}
+.bxg-intermediate-section .bxg-employment-class .mask span{
+    padding: 10px;
+    width: 100px;
+    background-color: #fe933a;
+    line-height: 241px;
+    color: #fff;
+}
+.bxg-intermediate-section .bxg-employment-class .employment-class:hover .mask{
+    display: block;
+}
+.bxg-intermediate-section .bxg-employment-class p{
+    float: left; 
+    width: 144px;
+    height: 101px;
+    padding-top: 28px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bxg-intermediate-section .bxg-employment-class p span{
+    float: left;
+    width: 144px;
+    height: 41px;
+    font-size: 12px;
+    color: #a5a5a5;
+    padding-top:23px;
+    box-sizing: border-box;
+}
+.bxg-intermediate-section .bxg-employment-class .class2{
+    position: relative;
+    float: right;
+    width: 580px;
+    height: 342px;
+    margin-top: 28px;
+}
+.bxg-intermediate-section .bxg-employment-class .robot{
+    width: 580px;
+    height: 241px;
+    background: url(../images/智能机器人.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.bxg-intermediate-section .bxg-employment-class .robot:hover .mask{
+    display: block;
+}
+
+/* 推荐讲师 */
+.bxg-teacher{
+    height: 274px;
+    margin-top: 117px;
+}
+.bxg-teacher .wrapper{
+    float: left;
+    width: 267px;
+    height: 200px;
+    margin-top: 49px;
+    margin-right: 45px;
+}
+.wrapper:nth-of-type(2){
+    margin-right: 42px;
+}
+.wrapper:last-child{
+    margin-right: 0;
+}
+.bxg-teacher .wrapper .top{
+    position: relative;
+    height: 100px;
+    width: 267px;
+    border-bottom: 2px solid #efefef;
+    box-sizing: border-box;
+}
+.bxg-teacher .wrapper .top img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.bxg-teacher .wrapper .top span:nth-of-type(1){
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/attension_no.png) center center;
+    background-size: 100% 100%;
+}
+.bxg-teacher .wrapper .top h5{
+    position: absolute;
+    top: 21px;
+    left: 94px;
+}
+.bxg-teacher .wrapper .top span:last-child{
+    position: absolute;
+    top: 45px;
+    left: 94px;
+    width: 167px;
+    height: 14px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.bxg-teacher .wrapper .bottom{
+    position: relative;
+    width: 267px;
+    height: 100px;
+}
+.bxg-teacher .wrapper .bottom p{
+    position: absolute;
+    font-size: 12px;
+    top: 29px;
+}
+.bxg-teacher .wrapper .bottom span{
+    position: absolute;
+    bottom: 0px;
+    font-size: 12px;
+}
+.bxg-teacher .wrapper .bottom .concern{
+    right: 0;
+}
+.bxg-teacher .wrapper .bottom .star{
+    position: absolute;
+    left: 28px;
+}
+/* 传智旗下品牌 */
+.bxg-brand{
+    height: 144px;
+    margin-top: 115px;
+}
+.bxg-brand ul{
+    height: 88px;
+    margin-top: 31px;
+}
+.bxg-brand li{
+    float: left;
+    width: 180px;
+    height: 88px;
+    margin-right: 24px;
+}
+.bxg-brand li:last-child{
+    margin-right: 0;
+}

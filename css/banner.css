@@ -1,0 +1,189 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 大的背景图片 */
+.bxg-banner-top{
+    width: 1920px;
+    height: 458px;
+    background: url(../images/1544112685317.jpg);
+}
+.bxg-banner-top .container {
+    height: 458px;
+    position: relative;
+}
+/* 中间图片 */
+.bxg-banner-top .icon-design{
+    position: absolute;
+    top: 0;
+    left: 201px;
+    width: 695px;
+    height: 458px;
+    margin: 0 auto;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+/* 左侧边栏 */
+.bxg-banner-top .left{
+    width: 201px;
+    height: 458px;
+    background-color:#000;
+    opacity: 0.4;
+    box-sizing: border-box;
+}
+.bxg-banner-top .left ul li{
+    position: relative;
+    width: 201px;
+    height: 45px;
+    vertical-align: middle;
+}
+.bxg-banner-top .left li span{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    width: 20px;
+    height: 20px;
+    background: url('../images/sprites.png') -80px -110px;
+    display: none;
+}
+.bxg-banner-top .left ul a{
+   position: relative;
+   top: 15px;
+   left: 30px;
+color: #fff;
+}
+.bxg-banner-top .left li:hover{
+    background-color: #fe801f;
+}
+.bxg-banner-top .left li:hover span{
+    display: inline-block;
+}
+.bxg-banner-top .left li:hover a{
+    left: 50px;
+    transition: 1s;
+}
+/* 右侧边栏 */
+.bxg-banner-top .right .list{
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    width: 304px;
+    height: 416px;
+    background-color:#000;
+    opacity: 0.4;
+    box-sizing: border-box;
+}
+.bxg-banner-top .right .title{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 304px;
+    height: 42px;
+    line-height: 42px;
+    background-color:#000;
+    opacity: 0.7;
+}
+.bxg-banner-top .right .title li{
+    float: left;
+    margin-right: 34px;
+}
+.bxg-banner-top .right .title li:first-child{
+    margin-left:20px ;
+}
+.bxg-banner-top .right .title li:last-child{
+    margin-right:24px ;
+}
+.bxg-banner-top .right .title li:hover a{
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom:1px solid #fe801f;
+}
+.bxg-banner-top .right .list li{
+    position: relative;
+    width: 304px;
+    height: 41.6px;
+    overflow: hidden;
+    line-height: 41.6px;
+}
+.bxg-banner-top .right .list a{
+    position: absolute;
+    left: 26px;
+    color:rgb(255, 255, 255);
+}
+.bxg-banner-top .right .list a::before{
+    position: absolute;
+    top: 19px;
+    left: -10px;
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.bxg-banner-top .right .list li:hover a{
+    color: #fe801f;
+}
+
+
+/* banner底部 */
+.bxg-banner-bottom{
+    width: 1920px;
+    height: 90px;
+    background-color: #333;
+}
+.bxg-banner-bottom li{
+    float: left;
+    position: relative;
+    width: 255px;
+    height: 90px;margin-right:60px ;
+}
+.bxg-banner-bottom li:last-child{
+    margin-right: 0px;
+}
+.bxg-banner-bottom li span{
+    position: absolute;
+    left: 61px;
+    top:19px;
+    width: 50px;
+    height: 50px;
+    background:url(../images/bgicon1.png) ;
+}
+.bxg-banner-bottom li:nth-child(1) span{
+    background:url(../images/bgicon1.png) ;
+}
+.bxg-banner-bottom li:nth-child(1):hover span{
+    background:url(../images/bgicon1.gif) ;
+}
+.bxg-banner-bottom li:nth-child(2) span{
+    background:url(../images/bgicon2.png) ;
+}
+.bxg-banner-bottom li:nth-child(2):hover span{
+    background:url(../images/bgicon2.gif) ;
+}
+.bxg-banner-bottom li:nth-child(3) span{
+    background:url(../images/bgicon3.png) ;
+}
+.bxg-banner-bottom li:nth-child(3):hover span{
+    background:url(../images/bgicon3.gif) ;
+}
+.bxg-banner-bottom li:nth-child(4) span{
+    background:url(../images/bgicon4.png) ;
+}
+.bxg-banner-bottom li:nth-child(4):hover span{
+    background:url(../images/bgicon4.gif) ;
+}
+.bxg-banner-bottom .active{
+    background-color: #fe801f;
+}
+.bxg-banner-bottom li:hover{
+    background-color: #fe801f;
+}
+.bxg-banner-bottom li a{
+    position: absolute;
+    top: 38px;
+    left: 130px;
+    color: #fff;
+    font-size: 15px;
+}

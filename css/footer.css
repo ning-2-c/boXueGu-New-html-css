@@ -1,0 +1,47 @@
+/* 底部 */
+.bxg-bottom{
+    width: 1920px;
+    height: 380px;
+    background-color: #2c3034;
+    margin-top: 50px;
+}
+.bxg-bottom .bxg-copyright{
+    height: 206px;
+    border-bottom:2px solid #4d525a;
+    box-sizing: border-box;
+}
+.bxg-bottom .bxg-copyright .container {
+    height: 206px;
+    text-align: center;
+}
+.bxg-bottom .bxg-copyright .wb,.wx{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-top: 52px;
+    background-size: 100% 100%;
+}
+.bxg-bottom .bxg-copyright .wb{
+    background: url(../images/wbIcon.png) no-repeat;
+}
+.bxg-bottom .bxg-copyright .wx{
+    background: url(../images/wxIcon.png) no-repeat;
+}
+.bxg-bottom .bxg-copyright p a{
+    margin-right: 20px;
+    color: #fff;
+}
+.bxg-bottom .bxg-information{
+    height: 174px;
+    text-align: center;
+}
+.bxg-bottom .bxg-information p{
+    margin-top: 10px;
+    color: #fff;
+}
+.bxg-bottom .bxg-information p:nth-of-type(1){
+    margin-top: 42px;
+}
+.bxg-bottom .bxg-information p:nth-of-type(3) span{
+    margin-right: 15px;
+}

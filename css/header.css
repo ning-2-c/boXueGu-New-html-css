@@ -1,0 +1,114 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.bxg-shortcut{
+    width: 1920px;
+    height: 57px;
+    background-color: #22282e;
+}
+.bxg-shortcut .container{
+    position: relative;
+    height: 57px;
+}
+.bxg-shortcut .container .logo{
+    width: 173px;
+}  
+.bxg-shortcut .container .logo a{
+    display: block;
+    font-size: 0px;
+    height: 57px;
+    background:url(../images/logo.png);
+    background-size: 100% 100%;
+}
+.bxg-shortcut .container li{
+    position: absolute;
+    width: 102px;
+    height: 35px;
+    top:11px;
+    right:180px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 17px;
+    border: 1px solid #fff;
+    color: #ededee;
+}
+.bxg-shortcut .container li:last-child{
+    right: 40px;
+}
+.bxg-shortcut .container li:hover{
+    background-color: #ff8227;
+    cursor: pointer;
+}
+
+
+.bxg-main-nav{
+    width: 1920px;
+    height: 58px;
+    padding-top: 19px;
+    box-sizing: border-box;
+}
+.bxg-main-nav .container{
+    position: relative;
+}
+.bxg-main-nav .container a:hover{
+    color: #ff8227;
+}
+.bxg-main-nav .nav{
+    width: 713px;
+    height: 18px;
+    line-height: 18px;
+}
+.bxg-main-nav .nav li a{
+    float: left;
+    font-size: 18px;
+    color: #2a2a2a;
+    margin-right: 74px;
+} 
+.bxg-main-nav ul li:last-child a{
+    margin-right: 0px;
+}
+.bxg-main-nav ul li .active{
+    color: #ff8227;
+}
+.bxg-main-nav ul li .new{
+    position: absolute;
+    top: 0px;
+}
+.bxg-main-nav .time{
+    position: absolute;
+    top: -19px;
+    right: 227px;
+    width: 124px;
+    height: 57px;
+    background: url(../images/time.gif);
+    background-size:100% 100% ;
+}
+.bxg-main-nav .vip{
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    width: 115px;
+    height: 23px;
+    background: url(../images/vip.gif);
+    background-size:100% 100% ;
+}
+.bxg-main-nav .app{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 62px;
+    height: 17px;
+}
+.bxg-main-nav .app img{
+    position: absolute;
+    bottom: -121px;
+    right: -19px;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.bxg-main-nav .app:hover img{
+    display: block;
+    z-index: 9;
+}
